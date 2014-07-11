@@ -105,7 +105,7 @@
 
 * { margin:0; padding:0; }
 
-body          {font-size: 14px; font-family: 'titilliumweb'; line-height: 20px; color:#555555; text-align: left; }
+body          {font-size: 14px; font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; line-height: 20px; color:#555555; text-align: left; }
 
 img           { border:0; vertical-align:top; }
 
@@ -233,7 +233,7 @@ ul,ol         { list-style:none; margin: 0;}
     line-height: 50px;
     font-size: 16px;
     color: #ffffff;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     display: block;
     text-indent:0px;
 }
@@ -304,7 +304,7 @@ button.button span { background:none; display:block; padding: 0; text-align:cent
 button.button span span {
     border: 0 none;
     color: #777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 16px;
     font-weight: normal;
     padding:0;
@@ -344,7 +344,7 @@ input.input-text:focus,select:focus,textarea:focus { background-color:#fff; }
 .form-list label { float:left; color:#666; font-weight:normal; position:relative; z-index:0; }
 .form-list label.required {}
 .form-list label.required em { float:right; font-style:normal; color:#eb340a; position:absolute; top:0; right:-8px; }
-.form-list li.control label { float:none; font-family:'titilliumwebsemibold' ;}
+.form-list li.control label { float:none; font-family:'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti' ;}
 .form-list li.control input.radio,
 .form-list li.control input.checkbox { margin-right:6px; float: left; }
 .form-list li.control .input-box { clear:none; display:inline; width:auto; }
@@ -507,7 +507,7 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 /* BreadCrumbs */
 .breadcrumbs { font-size:14px; color: #777777; line-height:25px; padding:12px 20px; border: 1px solid #f1f1f1; background:#f1f1f1; margin:0 0 25px; }
 .breadcrumbs li { display:inline; }
-.breadcrumbs li strong { font-weight:normal; color: #45d8bb; font-family: 'titilliumwebregular'; font-size: 14px;}
+.breadcrumbs li strong { font-weight:normal; color: #45d8bb; font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; font-size: 14px;}
 .breadcrumbs span{
     background: url("../images/bg-breadcrumbs.png") no-repeat scroll center center;
     display: inline-block;
@@ -515,7 +515,7 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
     text-indent: -9999px;
     width: 10px;
 }
-.breadcrumbs a { font-family: 'titilliumwebregular'; font-size: 14px;}
+.breadcrumbs a { font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; font-size: 14px;}
 /* Page Heading */
 .page-title {
     background: url("../images/bg-bottom1-title.png") repeat-x scroll left bottom;
@@ -527,7 +527,7 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 .page-title h2 {
     background: url("../images/bg1-bottom-title.png") no-repeat scroll left bottom;
     color: #777777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     margin: 0;
     padding: 0 0 15px;
@@ -536,7 +536,7 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 #login-form {float: left; width: 100%; margin: 30px 0 0;}
 #checkoutSteps #login-form { margin: 0; }
 #checkoutSteps ul { padding: 0;}
-#checkoutSteps { font-family: 'titilliumwebregular';}
+#checkoutSteps { font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';}
 .page-title .separator { margin:0 3px; }
 .page-title .link-rss { float:right; margin:7px 0 0; }
 .title-buttons { text-align:right; }
@@ -577,7 +577,7 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 .pager .pages a {
     background: #f1f1f1;
     color: #777777;
-    font-family:'titilliumwebregular';
+    font-family:'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     height: 30px;
     line-height:30px;
     padding: 0;
@@ -655,7 +655,7 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 .pager .limiter {
     color: #666666;
     float: none;
-    font-family: 'titilliumweb';
+    font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 16px;
     line-height: 22px;
     margin: 0;
@@ -1024,7 +1024,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     top: 15px;
     width: 20px;
 }
-.header-select option { color: #777; font-size: 14px; font-family:'titilliumwebregular';}
+.header-select option { color: #777; font-size: 14px; font-family:'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';}
 .box-select {
     border-right: 2px solid #f5f5f5;
     display: inline-block;
@@ -1090,7 +1090,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     background:none;
     color: #777;
     font-size: 15px;
-    font-family: 'titilliumwebregular';
+    font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     float: left;
     height: 38px;
     line-height: 38px;
@@ -1180,7 +1180,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     text-transform: uppercase;
     font-size: 18px;
     color: #777777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     margin: 0;
     line-height: 25px;
 }
@@ -1189,7 +1189,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     font-size: 14px;
     color: #777777;
     margin: 0;
-    font-family:'titilliumweb';
+    font-family:'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
 }
 /*--------------------------------------------------------------------------------------------------*/
 /*language-----------------------------------------------------------*/
@@ -1387,7 +1387,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .top-cart-wrapper:hover .cart_arrow { display: block;}
 .top-cart-contain .shopping_cart {
     color: #777777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     font-weight: normal;
     text-transform: uppercase;
@@ -1417,12 +1417,12 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     display: inline-block;
     text-align:left;
 }
-.top-cart-content .empty { font-size: 16px; font-family:'titilliumwebregular'; color: #777;}
-.top-cart-content .top-subtotal { font-size: 20px; float: right; margin: 0; color: #e75768; font-family:'titilliumwebsemibold' ; }
-.top-cart-content .subtotal-title { float: left; color: #777777; margin: 3px 0 0; font-size: 16px; font-family:'titilliumwebregular';}
+.top-cart-content .empty { font-size: 16px; font-family:'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; color: #777;}
+.top-cart-content .top-subtotal { font-size: 20px; float: right; margin: 0; color: #e75768; font-family:'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti' ; }
+.top-cart-content .subtotal-title { float: left; color: #777777; margin: 3px 0 0; font-size: 16px; font-family:'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';}
 .top-cart-content .product-name a {
     color: #777777;
-    font-family: 'titilliumwebregular';
+    font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 14px;
     text-transform: capitalize;
 }
@@ -1498,8 +1498,8 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     color: #fff;
 }
 .top-cart-content button.button span span,.top-cart-content button.button:hover span span { background: none; padding: 0; border: 0;}
-.top-cart-contain .product-details .price { color: #e75768; width: auto; font-size: 20px; font-family: 'titilliumwebsemibold';}
-.top-cart-contain .product-details strong { color:#999; font-family: 'titilliumwebregular'; font-size: 16px; }
+.top-cart-contain .product-details .price { color: #e75768; width: auto; font-size: 20px; font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';}
+.top-cart-contain .product-details strong { color:#999; font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; font-size: 16px; }
 /********** < Navigation */
 .nav-container { position: relative; z-index: 9;background:none; bottom:30px;}
 .cms-index-index .nav-container { position: relative; z-index: 9; background:none; box-shadow:none;}
@@ -1593,7 +1593,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     box-shadow: none !important;
     background: url("../images/bg-menu-mobile.png") no-repeat 50% 50%;
 }
-.navbar .btn-navbar:hover {background:url("../images/bg-menu-mobile.png") no-repeat 50% 50% !important; font-family: 'helvetica';}
+.navbar .btn-navbar:hover {background:url("../images/bg-menu-mobile.png") no-repeat 50% 50% !important; font-family: 'helvetica', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';}
 .navbar .btn-navbar .icon-bar {
     box-shadow:none !important;
     border-radius:0 !important;
@@ -1605,7 +1605,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .navbar .brand {
     color: #fff;
     text-transform: uppercase;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
 }
 .mobilemenu {
@@ -1652,7 +1652,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .mobilemenu a {
 	text-decoration: none;
 	border-bottom: 1px solid #f1f1f1;
-	font-family: 'titilliumwebsemibold';
+	font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
 	font-size: 16px;
 	line-height: 40px;
 	font-weight: normal;
@@ -1756,7 +1756,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .block .block-title strong {
     background: url("../images/bg1-bottom-title.png") no-repeat scroll left bottom;
     color: #777777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     margin: 0;
     padding: 0 0 15px;
@@ -1854,7 +1854,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .block-layered-nav li {
     background: url("../images/icon-layered.png") no-repeat 0 13px;
     color: #777;
-    font-family: 'titilliumweb';
+    font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 14px;
     line-height: 26px;
     padding-left: 12px;
@@ -1869,7 +1869,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     border: 0 none;
     box-shadow: none;
     color: #777;
-    font-family: 'titilliumweb';
+    font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 16px;
     font-weight: normal;
     margin: 0;
@@ -2204,13 +2204,13 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 }
 .category-products .box-price-hover .special-price .price {
     color: #FFFFFF;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 18px;
     font-weight: normal;
 }
 .category-products .box-price-hover .regular-price .price {
     color: #FFFFFF;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 18px;
     font-weight: normal;
 }
@@ -2232,7 +2232,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     color:#fff;
     font-size: 16px;
     text-transform: uppercase;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
 }
 .category-products .products-list button.btn-cart span span {
     padding: 0;
@@ -2254,7 +2254,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     font-size: 14px;
     color: #999999;
     padding: 8px 29px;
-    font-family:'titilliumwebsemibold';
+    font-family:'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
 }
 .products-list .link-wishlist:hover,.product-view .link-wishlist:hover {
     background: #474e58;
@@ -2268,7 +2268,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     font-size: 14px;
     color: #999999;
     padding: 8px 29px;
-    font-family:'titilliumwebsemibold';
+    font-family:'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
 }
 .products-list .link-compare:hover,.product-view .link-compare:hover  {
     background: #474e58;
@@ -2356,18 +2356,18 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 
 /* Regular price */
 .regular-price { color:#c76200; }
-.regular-price .price { font-size:20px; font-weight: normal; color:#E75768; font-family: 'titilliumwebsemibold'; }
+.regular-price .price { font-size:20px; font-weight: normal; color:#E75768; font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; }
 .block .regular-price,
 .block .regular-price .price { }
 
 /* Old price */
 .old-price { margin:0; }
 .old-price .price-label { white-space:nowrap; color:#999; display: none;}
-.old-price .price { font-weight: normal; color:#999999; text-decoration:line-through; font-size:12px; letter-spacing: -0.3px; font-family: 'titilliumwebregular'; }
+.old-price .price { font-weight: normal; color:#999999; text-decoration:line-through; font-size:12px; letter-spacing: -0.3px; font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; }
 /* Special price */
 .special-price { margin:0; padding:3px 0; }
 .special-price .price-label { font-size:13px; font-weight:normal; white-space:nowrap; color:#cd5033; display: none;}
-.special-price .price { font-size:20px; font-weight: normal; color:#E75768; font-family: 'titilliumwebsemibold'; }
+.special-price .price { font-size:20px; font-weight: normal; color:#E75768; font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; }
 
 /* Minimal price (as low as) */
 .minimal-price { margin:0; }
@@ -2379,7 +2379,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .item .minimal-price  .price-label { display: none;}
 .item .box-price-hover .minimal-price .price {
     color: #FFFFFF;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 18px;
     font-weight: normal;
     line-height: 60px;
@@ -2449,7 +2449,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .add-to-links .separator { display:none; }
 
 /* Add to Cart */
-.add-to-cart label { float:left; margin:8px 10px 0 0; font-weight:normal; font-size: 16px; color:#777; font-family: 'titilliumwebregular';}
+.add-to-cart label { float:left; margin:8px 10px 0 0; font-weight:normal; font-size: 16px; color:#777; font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';}
 .add-to-cart .qty { float:left; margin-right:5px; padding: 9px 0; text-align: center; }
 .add-to-cart button.button { float:left; margin: 0 0 0 20px;}
 .add-to-cart .paypal-logo { clear:left; margin:0; text-align:right; }
@@ -2470,7 +2470,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .product-view {  }
 
 .product-essential {  }
-.product-essential h2 { font-size: 13px; font-weight: normal; line-height: 20px; font-family: 'titilliumweb'; }
+.product-essential h2 { font-size: 13px; font-weight: normal; line-height: 20px; font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; }
 
 .product-collateral { margin-top: 30px;  }
 .product-collateral h2 { }
@@ -2505,7 +2505,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .col1-layout .product-view .product-shop {  }
 .col3-layout .product-view .product-shop { float:none; width:auto; }
 .product-view .product-shop .product-name { margin:0 0 13px 0; }
-.product-view .product-shop .product-name h1 { margin:0; font-size: 24px; color: #777; font-family: 'breeserifregular'; font-weight: normal; text-transform: uppercase;}
+.product-view .product-shop .product-name h1 { margin:0; font-size: 24px; color: #777; font-family: 'breeserifregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; font-weight: normal; text-transform: uppercase;}
 .product-view .product-shop .availability { margin:6px 0 0; float: right; width:auto; font-size: 14px; }
 .product-view .ratings { width: 100%; float: left; margin: 0 0 10px 0;}
 .product-view .product-shop .short-description { margin:6px 0 0; padding:10px 0 20px; float: none; display: inline-block; width: 100%; border-bottom: 1px solid #f1f1f1; }
@@ -2517,9 +2517,9 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .product-view .product-shop .add-to-links li .separator { display:inline; }
 .product-view .product-shop .add-to-links a { }
 .product-view .availability-price { display: inline-block; margin:15px 0 0; width: 100%;}
-.product-view .product-shop .special-price .price { font-family: 'breeserifregular'; font-size: 28px;}
-.product-view .product-shop .regular-price .price { font-family: 'breeserifregular'; font-size: 28px; }
-.product-view .product-shop .old-price .price { font-family: 'breeserifregular'; font-size: 21px; }
+.product-view .product-shop .special-price .price { font-family: 'breeserifregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; font-size: 28px;}
+.product-view .product-shop .regular-price .price { font-family: 'breeserifregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; font-size: 28px; }
+.product-view .product-shop .old-price .price { font-family: 'breeserifregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; font-size: 21px; }
 .product-view .input-content { float: left; border: 1px solid #f1f1f1; padding:3px 10px; width: 75px;}
 .product-view  .add-to-box-view { margin: 13px 0 0; display: inline-block; width: 100%;}
 .product-view .add-to-box { display: inline-block; width: 100%; border-top: 1px solid #f1f1f1; margin: 18px 0 0; padding: 15px 0 0;}
@@ -2531,7 +2531,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .ma-upsellslider-title h2 {
     background: url("../images/bg2-bottom-title.png") no-repeat scroll left bottom;
     color: #777777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     margin: 0;
     padding: 0 0 15px;
@@ -2542,7 +2542,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     border-bottom: 3px solid #3BB89F;
     color: #FFFFFF;
     display: block;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 16px;
     padding:7px 18px 6px;
     text-align: center;
@@ -2579,7 +2579,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     color: #999999;
     display: block;
     padding:7px 38px 6px;
-    font-family:'titilliumwebsemibold';
+    font-family:'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
 }
 .product-view .email-friend a:hover {
     background: #474e58;
@@ -2591,7 +2591,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     border:0;
     box-shadow: none;
     color: #777;
-    font-family: 'titilliumweb';
+    font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     float: left;
     font-size: 16px;
     height: 30px;
@@ -2678,7 +2678,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .product-view .product-options dt label { margin: 10px 10px 5px 0;}
 .product-options { margin:20px 0; padding:0; position:relative; background: none; border:0; display: inline-block; width: 100%; }
 .product-options dt { padding:0; font-weight:normal; }
-.product-options dt label { font-weight:normal; color:#777; font-size: 16px; font-family:'titilliumwebregular';  }
+.product-options dt label { font-weight:normal; color:#777; font-size: 16px; font-family:'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';  }
 .product-options dt label.required em { color:#45D8BB; margin-left:0; margin-right: 6px; }
 .product-options dd .qty-holder { display:block; padding:10px 0 0; }
 .product-options dd .qty-holder label { vertical-align:middle; }
@@ -2689,7 +2689,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .product-options dd input.datetime-picker { width:150px; }
 .product-options dd .time-picker { display:-moz-inline-box; display:inline-block; padding:2px 0; vertical-align:middle; }
 .product-options dd textarea { width:98%; height:8em; }
-.product-options dd select { width:65%; font-size: 14px; color: #777; font-family: 'titilliumweb'; }
+.product-options dd select { width:65%; font-size: 14px; color: #777; font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; }
 .product-options dd .multiselect option { border-bottom:1px dotted #d9e5ee; padding:2px 4px; }
 .product-options ul.options-list { margin-right:5px; }
 .product-options ul.options-list li { line-height:1.5; padding:2px 0; }
@@ -2719,7 +2719,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     border:0;
     box-shadow: none;
     color: #777;
-    font-family: 'titilliumweb';
+    font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     float: left;
     font-size: 16px;
     height: 30px;
@@ -2810,7 +2810,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .product-tabs a {
     color: #aaaaaa;
     display: block;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     line-height: 30px;
     padding:0;
@@ -2821,7 +2821,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     background: url("../images/bg1-bottom-title.png") no-repeat scroll left bottom;
     color: #777777;
     display: inline-block;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     margin: 0;
     padding: 0 0 13px;
@@ -2830,7 +2830,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     border: 0;
 }
 .product-tabs-content .std {
-    font-family: 'titilliumweb';
+    font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 14px;
     color: #777777;
 }
@@ -2840,7 +2840,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     background: url("../images/bg1-bottom-title.png") no-repeat scroll left bottom;
     color: #777777;
     display: inline-block;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     margin: 0;
     padding: 0 0 13px;
@@ -2848,7 +2848,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     text-transform: uppercase;
     border: 0;
 }
-.product-tabs-content h2 { color: #aaa; padding: 0 0 10px 0; font-family:'titilliumwebsemibold'; text-transform: uppercase; font-size: 20px;}
+.product-tabs-content h2 { color: #aaa; padding: 0 0 10px 0; font-family:'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; text-transform: uppercase; font-size: 20px;}
 .product-tabs-content {
     border:0;
     float: left;
@@ -2885,7 +2885,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     text-overflow: ellipsis;
     /*white-space: nowrap;*/
 }
-.product-name a { color:#777; font-family: 'titilliumwebregular'; font-size:14px; text-transform:capitalize; }
+.product-name a { color:#777; font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; font-size:14px; text-transform:capitalize; }
 .product-name a:hover { color: #45d8bb; text-decoration: none;}
 
 /* Product Tags */
@@ -2943,7 +2943,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     color:#fff;
     font-size: 16px;
     text-transform: uppercase;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
 }
 .checkout-onepage-index #checkoutSteps button.button span span {
     padding: 0;
@@ -2962,7 +2962,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 }
 .checkout-onepage-index .page-title h1 {
     color: #777777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     margin: 0;
     padding: 0 0 15px;
@@ -2994,7 +2994,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     background: none;
     border: 0 none;
     color: #777777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 16px;
     font-weight: normal;
     line-height: 19px;
@@ -3003,7 +3003,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .checkout-cart-index .crosssell button.button span span {
     border: 0 none;
     color: #777777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 16px;
     font-weight: normal;
     padding: 0;
@@ -3051,7 +3051,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     border-bottom: 3px solid #3BB89F;
     color: #FFFFFF;
     display: block;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 16px;
     padding: 8px 18px;
     text-align: center;
@@ -3238,9 +3238,9 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     background:none;
     border: 1px solid #f1f1f1;
     margin: 16px 0 0;
-    font-family: 'titilliumwebregular';
+    font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
 }
-.opc .step-title .number { font-family: 'titilliumwebregular'; float:left; background:#45d8bb; border:1px solid #45d8bb; text-shadow: none; padding:0px 8px; border-radius: 5px; margin:0 5px 0 0; font-size: 16px; line-height: 25px; color:#fff; }
+.opc .step-title .number { font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; float:left; background:#45d8bb; border:1px solid #45d8bb; text-shadow: none; padding:0px 8px; border-radius: 5px; margin:0 5px 0 0; font-size: 16px; line-height: 25px; color:#fff; }
 .opc .step-title h2 { float:left; margin:0; font-size: 16px; line-height: 28px; color:#777777; }
 .opc .step-title a { display:none; float:right; font-size:11px; line-height:16px; }
 .opc li.section input.radio { float: left;}
@@ -3259,7 +3259,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .opc .step .tool-tip { right:30px; }
 
 #opc-login .buttons-set { border-top:0; }
-#opc-login h3 { font-size:15px; border-bottom:0; padding:10px 0 15px 0; text-transform:capitalize; font-family: 'titilliumwebregular'; }
+#opc-login h3 { font-size:15px; border-bottom:0; padding:10px 0 15px 0; text-transform:capitalize; font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; }
 #opc-login h4 { font-size:1em; font-weight:normal; margin:0; color:#2f2f2f; line-height: 30px; }
 
 #opc-shipping_method .buttons-set { border-top:0; }
@@ -3337,7 +3337,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 
 /* Account Login/Create Pages ============================================================ */
 .account-login .content { min-height:345px; padding:14px 21px; border:1px solid #ddd; border-bottom:0; }
-.account-login .content h2 { font-weight:normal; font-size:16px; font-family:'titilliumwebsemibold'; margin:0 0 14px; padding:0 0 5px 23px; border-bottom:1px solid #ddd; background-position:0 3px; background-repeat:no-repeat; text-transform:uppercase; color:#45d8bb; }
+.account-login .content h2 { font-weight:normal; font-size:16px; font-family:'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; margin:0 0 14px; padding:0 0 5px 23px; border-bottom:1px solid #ddd; background-position:0 3px; background-repeat:no-repeat; text-transform:uppercase; color:#45d8bb; }
 .account-login .new-users h2 { background-image:url(../images/i_page1.gif)}
 .account-login .registered-users h2 { background-image:url(../images/i_page2.gif); }
 .account-login .buttons-set { border:1px solid #ddd;  margin:0; padding:8px 13px; }
@@ -3566,7 +3566,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .footer-static-content { margin: 15px 0 0;}
 .footer-static-title h3 {
     color: #fff;
-    font-family: 'titilliumwebregular';
+    font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 16px;
     font-weight: normal;
     margin: 0;
@@ -3579,7 +3579,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     font-size: 14px;
     text-transform: capitalize;
     padding: 0 0 0 12px;
-    font-family:'TitilliumWebThin';
+    font-family:'TitilliumWebThin', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     background: url("../images/icon-footer.png") no-repeat 0 10px;
 }
 .footer-static-content ul li a:hover {
@@ -3591,7 +3591,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     font-size: 14px;
     color: #ffffff;
     text-transform: inherit;
-    font-family:"TitilliumWebThinItalic";
+    font-family:"TitilliumWebThinItalic", 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     line-height: 27px;
     margin: 0;
 }
@@ -3621,7 +3621,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .footer .bugs { margin:13px 0 0; color:#ecf3f6; }
 .footer .bugs a { color:#ecf3f6; text-decoration:underline; }
 .footer .bugs a:hover { text-decoration:none; }
-.footer address { margin:8px 0 0; color:#fff; font-size: 14px; font-family:'TitilliumWebThin'; text-shadow: none; }
+.footer address { margin:8px 0 0; color:#fff; font-size: 14px; font-family:'TitilliumWebThin', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; text-shadow: none; }
 .footer address a { color:#45d8bb; text-decoration:none; }
 .footer address a:hover { color:#fff; text-decoration:none; }
 .footer ul { display:inline; }
@@ -3662,7 +3662,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 }
 .footer-top-title h3 {
     color: #555555;
-    font-family: 'titilliumweb';
+    font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 30px;
     font-weight: normal;
     margin: 0;
@@ -3695,7 +3695,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     font-size: 33px;
     line-height: 32px;
     font-weight: normal;
-    font-family: 'titilliumweb';
+    font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     margin:0;
     text-transform: uppercase;
 }
@@ -3826,7 +3826,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     background:none;
     border: 0;
     color: #fff;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 16px;
     font-weight: normal;
     padding:0;
@@ -3926,7 +3926,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 }
 .custom-block .custom-block-title h2 {
     color: #777777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -3958,7 +3958,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     display: inline-block;
     text-align: center;
     padding: 10px 0 0;
-    font-family: 'TitilliumWebitalic';
+    font-family: 'TitilliumWebitalic', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
 }
 .banner-static-contain { margin: 30px 0 0;}
 
@@ -3968,7 +3968,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     display: inline-block;
 }
 .banner-col h2 {
-    font-family: 'titilliumweb';
+    font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 24px;
     color: #45d8bb;
     width: 100%;
@@ -3991,7 +3991,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     display: inline-block;
 }
 .banner-col1 h2 {
-    font-family: 'titilliumweb';
+    font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 24px;
     color: #f9c9bf;
     width: 100%;
@@ -4014,7 +4014,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     display: inline-block;
 }
 .banner-col2 h2 {
-    font-family: 'titilliumweb';
+    font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 24px;
     color: #a3dbd4;
     width: 100%;
@@ -4037,7 +4037,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 }
 .banner-subscribe { width: 100%; background:url("../images/bg-subscribe.png") repeat #44d6ba; display: inline-block; margin: -15px 0 0;}
 .banner-subscribe .block-subscribe { padding: 30px 40px 20px; width: 100%; display: inline-block;}
-.banner-subscribe .footer-static-title h3 { color: #fff; font-size: 24px; font-family: 'breeserifregular';}
+.banner-subscribe .footer-static-title h3 { color: #fff; font-size: 24px; font-family: 'breeserifregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';}
 .banner-subscribe .form-subscribe-header {display: none;}
 .banner-subscribe .subscribe-title { float: left; margin: 3px 20px 0 0;}
 .banner-subscribe .block-content {float: left; margin: 0;}
@@ -4056,7 +4056,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .ma-mostview-title h2 {
     background: url("../images/bg-bottom-title.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
     color: #777777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     margin: 0;
     padding: 0 0 15px;
@@ -4089,20 +4089,20 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 }
 .ma-mostview-products .old-price .price {
     color: #EAB1B8;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 13px;
     font-weight: normal;
     text-decoration: line-through;
 }
 .ma-mostview-products .special-price .price {
     color: #FFFFFF;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 18px;
     font-weight: normal;
 }
 .ma-mostview-products .regular-price .price {
     color: #FFFFFF;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 18px;
     font-weight: normal;
 }
@@ -4218,7 +4218,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .ma-featured-product-title h2 {
     background: url("../images/bg1-bottom-title.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
     color: #777777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     margin: 0;
     padding: 0 0 15px;
@@ -4244,7 +4244,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .ma-bestseller-vertscroller-title h2 {
     background: url("../images/bg1-bottom-title.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
     color: #777777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     margin: 0;
     padding: 0 0 15px;
@@ -4264,7 +4264,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .ma-onsaleproductslider-title h2 {
     background: url("../images/bg-bottom-title.png") no-repeat scroll left bottom;
     color: #777777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     margin: 0;
     padding: 0 0 15px;
@@ -4279,7 +4279,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .tab-title h2 {
     font-size: 20px;
     color: #777;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     text-transform: uppercase;
     margin: 0;
     padding: 0 0 15px 0;
@@ -4392,7 +4392,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     margin:0 0 -3px 45px;
     border-left: 1px solid #fff;
     color: #fff;
-    font-family: 'titilliumwebsemibold';
+    font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -4403,7 +4403,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     display: inline-block;
     line-height: 19px;
     padding: 0 0 10px;
-    font-family:'titilliumwebsemibold';
+    font-family:'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
 }
 .pt_vmegamenu .col2 .itemMenu h4.level1 span,
 .pt_vmegamenu .col2 .itemMenu a.level1 span{
@@ -4484,7 +4484,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 	    padding: 0 0 10px 0;
             margin: 15px 0 5px;
 	    text-transform: uppercase;
-	    font-family: 'titilliumwebregular';
+	    font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
 	    background: url("../images/bg-catlist.png") no-repeat left bottom;
 	}
 .col_2 .catlist_level_top  h3 {
@@ -4496,7 +4496,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .catgrid ul li a {
     color: #fff;
     text-decoration:none;
-    font-family: 'TitilliumWebThin';
+    font-family: 'TitilliumWebThin', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 13px;
     line-height: 23px !important;
     padding: 0 0 0 15px;
@@ -4625,7 +4625,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 }
 .ma-new-product-title h2 {
     color: #555555;
-    font-family: 'titilliumweb';
+    font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';
     font-size: 30px;
     font-weight: normal;
     margin: 0;
@@ -4637,7 +4637,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .btn-default {  background: none !important; border: 0 !important; box-shadow: none !important; padding: 0;}
 .bootstrap-select { width: 125px !important;}
 .bootstrap-select.btn-group .dropdown-menu { margin: 40px 0 0 -20px; padding: 0 0 20px 0 !important; border: 0 !important;  box-shadow: none !important; border-radius: 0 !important; height: 300px;}
-.bootstrap-select.btn-group .btn .filter-option { font-family: 'titilliumwebregular'; font-size: 16px; color: #777777;}
+.bootstrap-select.btn-group .btn .filter-option { font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; font-size: 16px; color: #777777;}
 .dropdown-menu a { background: none !important; text-align: left; display: inline-block; font-size: 14px !important; color: #777777 !important; padding: 5px 20px !important;}
 .dropdown-menu a:hover { background: #f1f1f1 !important; }
 .cms-about-magento-demo-store .col3-set {
@@ -4645,7 +4645,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     width: 100%;
     margin: 30px 0 0;
 }
-.cms-about-magento-demo-store p { font-family: 'titilliumweb' !important; font-size: 14px !important;}
+.cms-about-magento-demo-store p { font-family: 'titilliumweb', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti' !important; font-size: 14px !important;}
 .wrapper_box #shopping_cart,.wrapper_box #continue_shopping {
     background: #45D8BB;
     border-bottom: 3px solid #3BB89F;
