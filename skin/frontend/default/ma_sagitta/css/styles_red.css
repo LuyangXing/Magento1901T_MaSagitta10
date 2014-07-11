@@ -723,7 +723,8 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 #shopping-cart-table {background: #fff; border:1px solid #ddd; }
 #shopping-cart-table .odd { background: #fff; }
 #shopping-cart-table .even { background: #fff; }
-#shopping-cart-table .product-name { text-align: center; line-height: 120px;}
+#shopping-cart-table .product-name { text-align: center; line-height: 14px;}
+td.leon-patch-td {width: 35%;}
 #shopping-cart-table td { line-height: 120px;}
 #shopping-cart-table .btn-remove2 { display:block; width:17px; height:22px; margin: 48px 0 0; font-size:0; line-height:0; background:url(../images/btn_trash.gif) 0 0 no-repeat; text-indent:-999em; overflow:hidden; }
 #shopping-cart-table .link-wishlist { margin: 0 0 0 23px;}
