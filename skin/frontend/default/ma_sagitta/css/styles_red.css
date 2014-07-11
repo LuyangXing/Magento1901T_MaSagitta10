@@ -314,7 +314,7 @@ button.button:hover span {background:none; color: #45d8bb;}
 button.button:hover span span { padding: 0; color: #45d8bb;}
 button.disabled span { border-color:#bbb !important; background:#bbb !important; }
 
-button.btn-cart span { background:none; border:0; line-height: 19px; padding:0; color: #777; font-size:16px;  font-weight: normal; font-family: 'titilliumwebsemibold';}
+button.btn-cart span { background:none; border:0; line-height: 19px; padding:0; color: #777; font-size:16px;  font-weight: normal; font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';}
 button.btn-cart span span { background: none;}
 button.btn-cart:hover span { background:none; color: #45d8bb;}
 button.btn-cart:hover span span { background: none;}
@@ -636,8 +636,8 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
     position: relative;
     display: inline-block;
 }
-.pager .sort-by label {display: inline-block; margin: 0 10px 0 0; font-weight: normal; vertical-align:middle;font-size:14px; font-family: 'titilliumwebregular'; color: #777777; line-height:22px;  }
-.pager .sort-by select { padding:2px 4px; border:1px solid #f1f1f1; margin:0 ; vertical-align:middle; color: #777; background:#fff; font-size: 14px; font-family: 'titilliumwebregular';}
+.pager .sort-by label {display: inline-block; margin: 0 10px 0 0; font-weight: normal; vertical-align:middle;font-size:14px; font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; color: #777777; line-height:22px;  }
+.pager .sort-by select { padding:2px 4px; border:1px solid #f1f1f1; margin:0 ; vertical-align:middle; color: #777; background:#fff; font-size: 14px; font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';}
 .select-sort-by { display: inline-block;}
 .select-sort-by:before{
     background: url("../images/bg-select.png") no-repeat scroll 50% 50% #fff;
@@ -677,8 +677,8 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
     top: 9px;
     width: 20px;
 }
-.pager .limiter label {display: inline-block; margin: 0 10px 0 0; vertical-align:middle;  color: #777; font-size: 14px;  font-family: 'titilliumwebregular'; font-weight: normal;}
-.pager .limiter select { text-align: center; padding:2px 4px;  border:1px solid #f1f1f1; margin:0; vertical-align:middle; color: #777; background: #fff; font-size: 14px;  font-family: 'titilliumwebregular'; font-weight: normal; }
+.pager .limiter label {display: inline-block; margin: 0 10px 0 0; vertical-align:middle;  color: #777; font-size: 14px;  font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; font-weight: normal;}
+.pager .limiter select { text-align: center; padding:2px 4px;  border:1px solid #f1f1f1; margin:0; vertical-align:middle; color: #777; background: #fff; font-size: 14px;  font-family: 'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; font-weight: normal; }
 .pager .pages {
     float: right;
     font-size: 14px;
@@ -741,7 +741,7 @@ td.leon-patch-td {width: 35%;}
 .data-table th { padding: 6px 10px; font-weight:normal; }
 .data-table td { padding: 6px 10px; }
 
-.data-table thead th { background:none; font-weight: normal; border-right:1px solid #ddd; border-bottom:1px solid #ddd; padding: 10px; color:#777; white-space:nowrap; vertical-align:middle; text-align: center; text-transform: capitalize; font-size: 13px; font-family:'titilliumwebsemibold';}
+.data-table thead th { background:none; font-weight: normal; border-right:1px solid #ddd; border-bottom:1px solid #ddd; padding: 10px; color:#777; white-space:nowrap; vertical-align:middle; text-align: center; text-transform: capitalize; font-size: 13px; font-family:'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti';}
 .data-table thead th.wrap { white-space:normal; }
 .data-table thead th a,
 .data-table thead th a:hover { color:#fff; }
@@ -1847,7 +1847,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .block-layered-nav .block-title {   }
 .block-layered-nav .block-subtitle {  }
 .block-layered-nav .block-content { }
-.block-layered-nav dt {  padding:10px 0 2px; font-weight: normal; text-transform: uppercase; font-size: 16px; color: #777; font-family: 'titilliumwebsemibold'; }
+.block-layered-nav dt {  padding:10px 0 2px; font-weight: normal; text-transform: uppercase; font-size: 16px; color: #777; font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti'; }
 .block-layered-nav .block-subtitle { display: none;}
 .block-layered-nav dd { padding:0;}
 .block-layered-nav dd.last { background:none; }
@@ -3032,7 +3032,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .cart .discount,
 .cart .shipping { border:1px solid #ddd;  padding:12px 15px; margin:0 0 18px; }
 .cart .discount h2,
-.cart .shipping h2 { background-position:0 0; background-repeat:no-repeat; font-size: 15px; line-height: 25px; font-family: 'titilliumwebsemibold' ; padding:0; color:#777; text-transform:uppercase; }
+.cart .shipping h2 { background-position:0 0; background-repeat:no-repeat; font-size: 15px; line-height: 25px; font-family: 'titilliumwebsemibold', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti' ; padding:0; color:#777; text-transform:uppercase; }
 
 .discount-form label { font-weight: normal;}
 .cart .discount h2 {  }
@@ -3204,7 +3204,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .block-progress .block-title {   }
 .block-progress .block-title strong {  }
 .block-progress .block-content {  border: 0; border-top: none; }
-.block-progress dt { font-size:16px; font-weight:normal; line-height:25px;  border:0; margin:0; padding:5px 8px; color:#777; font-family:'titilliumwebregular' ; }
+.block-progress dt { font-size:16px; font-weight:normal; line-height:25px;  border:0; margin:0; padding:5px 8px; color:#777; font-family:'titilliumwebregular', 'STXihei', 'Microsoft YaHei', 'SimSun', 'Heiti' ; }
 .block-progress .block-content dl { margin: 0;}
 .block-progress dd { background:none; border:1px solid #ddd; border-top:0; padding:8px 13px; margin:0 0 6px; }
 .block-progress dt.complete { margin:0; background:none; color:#777; }
