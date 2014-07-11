@@ -3037,7 +3037,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .discount-form label { font-weight: normal;}
 .cart .discount h2 {  }
 .cart .discount .input-box { margin:8px 0 0; width:260px; }
-.cart .discount input.input-text { width:254px; }
+.cart .discount input.input-text { width:70%; } /*.cart .discount input.input-text { width:254px; }*/
 .cart  input.input-text {
     background: #fff;
     height: 25px;
