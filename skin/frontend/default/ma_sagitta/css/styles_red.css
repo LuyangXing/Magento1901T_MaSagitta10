@@ -4225,7 +4225,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
     text-transform: uppercase;
 }
 .ma-featured-products .featured-products { float: left; margin:0; width: 100%;}
-.ma-featured-products .products-grid .item { margin: 20px 0 0;}
+.ma-featured-products .products-grid .item { margin: 20px 0 0; width: 100%;}
 .ma-featured-products .price-box { width: 100%;}
 /*======================================================================================*/
 /*banner-left=============================================================*/
