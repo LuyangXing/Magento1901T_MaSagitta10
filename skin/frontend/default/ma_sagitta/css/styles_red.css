@@ -4066,6 +4066,7 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .ma-mostview-products .products-grid .product-name {
     text-align: center;
     min-height: 25px;
+    width: 100%;
 }
 .ma-mostview-products .actions { display: inline-block; width: 100%; text-align: center;}
 .ma-mostview-products .box-price {
@@ -4297,11 +4298,11 @@ p.welcome-msg { margin: 0; line-height: 50px; text-align: center; display: inlin
 .tab_container .products-grid .ratings { float: none; margin:3px 0 0;}
 .tab_container .products-grid  .product-image { float:left; width:105px;}
 .tab_container .products-grid  .box-item { float: none; width:auto; margin-left:115px; text-align: left;}
-.tab_container .products-grid .item-inner { display: inline-block; border: 1px solid #fff; padding: 10px;}
+.tab_container .products-grid .item-inner { display: inline-block; border: 1px solid #fff; padding: 10px; width:100%;}
 .tab_container .products-grid .item-inner:hover { border: 1px solid #f4ca49;}
 .tab_container .products-grid .product-name {
     margin: 0;
-    width: 120px;
+    /*width: 120px;*/
     text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
