@@ -136,14 +136,15 @@ caption,th,td { vertical-align:top; text-align:left; font-weight:normal; }
 
 /* Content */
 p             { margin:0 0 10px; }
-strong        { font-weight:normal; }
+strong        { font-weight:bold; }
 address       { font-style:normal; line-height:1.35; }
 cite          { font-style:normal; }
 q,
 blockquote    { quotes:none; }
 q:before,
 q:after       { content:''; }
-small,big     { font-size:1em; }
+small   { font-size:0.8em; color: black; }
+big     { font-size:1em; }
 /*sup           { font-size:1em; vertical-align:top; }*/
 
 /* Lists */
